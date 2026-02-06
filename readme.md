@@ -26,18 +26,10 @@ Created for practice with:
 
 ---
 
-## Build (Windows, x64)
-
-Assemble:
+## Build (Windows x64)
 
 ```
-nasm -f win64 main.asm -o main.obj
-```
-
-Link:
-
-```
-link main.obj /subsystem:console /entry:main kernel32.lib
+make all
 ```
 
 ---
